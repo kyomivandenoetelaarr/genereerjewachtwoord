@@ -1,7 +1,6 @@
-# genereerjewachtwoord
-An Open Source Password Generator
-
-# how it works
+# What is genereer je wachtwoord?
+An free open Source Password Generator that you can local 
+# How it works
 Download all of the files (index.html , script.js, style.css)
 
 Create a folder (you can choose your own name)
@@ -14,11 +13,11 @@ Now it's opened in a browser and you can generate passwords locally
 
 (Checking passwords can give wrong answers, so always use the password generator)
 
-# what is a good password?
+# What is a good password?
 Selecht all of the things ( Hoofdletters,Kleine letters,Cijfers,Speciale tekens)
 
 (Easy to remember doesn't always work)
-# what meaning the things i can select?
+# What meaning the things i can select?
 Hoofdletters = TEST
 
 Kleine letters = test
@@ -27,6 +26,8 @@ Cijfers = 1234
 
 Speciale tekens = @!*%
 
+# Do the send some thing to developers?
+No everything runs local on your own ram so when you close your browser everything is gone
 # Can use the code for my own site?
 No the code is only for local use
 
