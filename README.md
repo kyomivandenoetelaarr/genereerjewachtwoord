@@ -28,7 +28,7 @@ Speciale tekens = @!*%
 
 # Do the send some thing to developers?
 No everything runs local on your own ram so when you close your browser everything is gone
-# Can use the code for my own site?
+# Can i use the code for my own site?
 No the code is only for local use
 
 # Can i make te code better?
