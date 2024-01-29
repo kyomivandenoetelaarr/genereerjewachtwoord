@@ -20,8 +20,11 @@ Selecht all of the things ( Hoofdletters,Kleine letters,Cijfers,Speciale tekens)
 (Makkelijk te onthouden doenst work always)
 # what meaning the things i can select
 Hoofdletters = TEST
+
 Kleine letters = test
+
 Cijfers = 1234
+
 Speciale tekens = @!*%
 
 
