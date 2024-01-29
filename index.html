@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Genereer Je Wachtwoord</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Genereer Je Wachtwoord!</h1>
+    <p class="slogan">Veillige wachtwoorden voor iedereen!</p>
+
+    <label for="length">Wachtwoord lengte:</label>
+    <br>
+    <input type="number" id="length" min="8" max="64" value="12" style="margin-bottom: 10px;">
+
+    <br>
+    <input type="checkbox" id="uppercase">
+    <label class="option-label" for="uppercase">Hoofdletters</label>
+
+    <br>
+    <input type="checkbox" id="lowercase">
+    <label class="option-label" for="lowercase">Kleine letters</label>
+
+    <br>
+    <input type="checkbox" id="numbers">
+    <label class="option-label" for="numbers">Cijfers</label>
+
+    <br>
+    <input type="checkbox" id="special">
+    <label class="option-label" for="special">Speciale tekens</label>
+
+    <br>
+    <input type="checkbox" id="memorable">
+    <label class="option-label" for="memorable">Makkelijk te onthouden</label>
+
+    <br>
+    <button class="btn" onclick="generatePassword()">Genereer wachtwoord</button>
+
+    <br>
+    <p class="password" id="password"></p>
+  </div>
+
+  <div class="instructions">
+    <h2>Hoe het werkt:</h2>
+    <ol>
+      <li>Kies de gewenste lengte voor het wachtwoord. De standaardlengte is 12 tekens.</li>
+      <li>Selecteer zoveel mogelijk vakjes op basis van de gewenste tekens die in het wachtwoord moeten zitten.</li>
+      <li>Als je een makkelijk te onthouden wachtwoord wilt, vink dan het vakje "Makkelijk te onthouden" aan.</li>
+      <li>Klik op de knop "Genereer wachtwoord" om het wachtwoord te genereren.</li>
+      <li>Het gegenereerde wachtwoord wordt weergegeven in het tekstvak hieronder.</li>
+    </ol>
+  </div>
+
+  <div class="page-container">
+    <div class="main-content">
+      <h2>Check de veiligheid van je huidige wachtwoord!</h2>
+      <label for="currentPassword">Huidig wachtwoord:</label>
+      <br>
+      <input type="password" id="currentPassword" onkeyup="checkPasswordStrength()">
+      <button onclick="togglePasswordVisibility()">Toon/verberg wachtwoord</button>
+      <div class="page-container">
+        <div class="main-content">
+          <p id="passwordStrength" style="font-size: 24px; font-weight: bold;"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
