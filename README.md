@@ -31,10 +31,5 @@ No everything runs local on your own ram so when you close your browser everythi
 # Can i use the code for my own site?
 No the code is only for local use
 
-# Can i make te code better?
-Yes you can help making the code better 
-
-(send updated codes to github.kiln329@passmail.net so whe can check it first)
-
 
 
