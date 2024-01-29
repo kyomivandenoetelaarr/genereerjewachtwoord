@@ -14,7 +14,7 @@ Now it's opened in a browser and you can generate passwords locally
 (Checking passwords can give wrong answers, so always use the password generator)
 
 # What is a good password?
-Selecht all of the things ( Hoofdletters,Kleine letters,Cijfers,Speciale tekens)
+Select all of the things ( Hoofdletters,Kleine letters,Cijfers,Speciale tekens)
 
 (Easy to remember doesn't always work)
 # What meaning the things i can select?
