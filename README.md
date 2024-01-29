@@ -1,5 +1,5 @@
 # What is genereer je wachtwoord?
-An free open Source Password Generator that you can local 
+An free open Source Password Generator that you can run local 
 # How it works
 Download all of the files (index.html , script.js, style.css)
 
